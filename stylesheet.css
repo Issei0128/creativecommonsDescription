@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 210px 0 150px 0;
+  background-image: url(http://gahag.net/img/201608/05s/gahag-0113235076-1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color: #808080;
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
+
+.top-wrapper p {
+  color: #696969;
+  opacity: 0.8;
+}
+
+.signup {
+  background-color: #ffa544;
+}
+
+
+.btn {
+  padding: 16px 48px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+
+
+.header-right {
+  text-align: center;
+  width: 100%;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 96px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.creative {
+  border-right: 1px solid #eee;
+}
+
+.copyright {
+  border-left: 1px solid #eee;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* デフォルトではメニューアイコンを非表示にする */
+  display: none;
+  
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 70px;
+  padding-bottom: 60px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+ .lesson h3 {
+    color: #696969;
+  }
+
+.lesson-icon {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #1E90FF;
+  opacity: 0.9;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.message {
+  padding: 25px 45px;
+  background-color: #ffa544;
+  cursor: pointer;
+  box-shadow: 0px 5px #a0522d;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
